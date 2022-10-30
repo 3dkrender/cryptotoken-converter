@@ -48,7 +48,7 @@ from getenv import env
 from privex.helpers import env_csv
 
 # Supply a list of one or more comma-separated Steem RPC nodes. If not set, will use the default beem nodes.
-STEEM_RPC_NODES = env_csv('STEEM_RPC_NODES', None)
+STEEM_RPC_NODES = env_csv('STEEM_RPC_NODES', ['https://steemapi.3dkrender.com'])
 # Supply a list of one or more comma-separated Steem RPC nodes. If not set, will use the default beem nodes.
 HIVE_RPC_NODES = env_csv('HIVE_RPC_NODES', ['https://anyx.io', 'https://hived.privex.io', 'https://hived.hive-engine.com'])
 # Set the shared Beem RPC instance to use the specified nodes
